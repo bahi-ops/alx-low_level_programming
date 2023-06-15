@@ -1,2 +1,2 @@
 #!/bin/bash
-export C file = $CFILE ; c = $OUTPUT ; cpp "$CFILE" "$OUTPUT"
+gcc -e $CFILE -oc
