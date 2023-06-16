@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-* main main.   
-* return 0
+* main main.
+* return0
 * description: main takeis a in and then prints it with puts.
 */
 int main(void)
