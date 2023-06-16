@@ -1,8 +1,9 @@
 #include <stdio.h>
- /**
- * main - main block
- * Return: 0
- /*funtion main is main */
+/**
+*main main   
+*return 
+*description: main takeis a in and then prints it with puts
+**/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
