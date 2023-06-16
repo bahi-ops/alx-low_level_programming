@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
- * Entry point of the program.
+ * @brief Entry point of the program.
+ *
  * Prints the message "Programming is like building a multilingual puzzle."
- * Returns 0 to indicate successful execution.
+ *
+ * @return The return value 0 to indicate successful execution.
  */
-int main(void) /*main funtion*/
+int main(void) 
 {
 puts("Programming is like building a multilingual puzzle");
- return (0);/*returns*/
+ return (0);
 }
