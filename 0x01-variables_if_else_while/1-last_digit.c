@@ -3,21 +3,20 @@
 #include <time.h>
 
 int main() {
-    srand(time(NULL)); // Initialize random seed
-    
-    int n = rand(); // Assign a random number to variable n
-    
-    printf("Last digit of %d is ", n);
-    
-    int lastDigit = abs(n) % 10; // Get the last digit of n
-    
-    if (lastDigit > 5) {
-        printf("%d and is greater than 5\n", lastDigit);
-    } else if (lastDigit == 0) {
-        printf("%d and is 0\n", lastDigit);
+    srand(time(0)); // Initialize random number generator with current time
+
+    int n = rand();
+
+    printf("Last digit of %d is ", n % 10);
+
+    if (n % 10 > 5) {
+        printf("greater than 5\n");
+    } else if (n % 10 == 0) {
+        printf("0\n");
     } else {
-        printf("%d and is less than 6 and not 0\n", lastDigit);
+        printf("less than 6 and not 0\n");
     }
-    
+
     return 0;
 }
+
