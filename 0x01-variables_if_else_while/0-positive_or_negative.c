@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description: Prints whether a randomly generated number is positive,
+ *              negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int n;
-        if (n > 0){
-             printf("is postive\n");
-	    
-	}else if (n == 0) {
-		printf("is zero\n");
-             
-	}else{
-              printf("is negative \n");i
-	}
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+printf("%d is ", n);
+if (n > 0)
+printf("positive\n");
+else if (n == 0)
+printf("zero\n");
+else
+printf("negative\n");
+return (0);
 }
