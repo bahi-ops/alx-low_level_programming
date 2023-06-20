@@ -1,0 +1,1 @@
+ we here are explaining the nested loops also funtions how to create a header file and how to declare it in your code also i think alx is great way to make u learn how to code how to learn by practicing how to understand by your own and fix your own problems great grant halberton 
