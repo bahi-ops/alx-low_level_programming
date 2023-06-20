@@ -2,22 +2,26 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
-    srand(time(NULL)); // Initialize random seed
-    
-    int n = rand(); // Assign a random number to variable n
-    
-    printf("Last digit of %d is ", n);
-    
-    int lastDigit = abs(n) % 10; // Get the last digit of n
-    
-    if (lastDigit > 5) {
-        printf("%d and is greater than 5\n", lastDigit);
-    } else if (lastDigit == 0) {
-        printf("%d and is 0\n", lastDigit);
-    } else {
-        printf("%d and is less than 6 and not 0\n", lastDigit);
-    }
-    
-    return 0;
+/**
+ * main - Entry point
+ *
+ * Description: Prints the last digit of a randomly generated number.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+printf("Last digit of %d is %d ", n, n % 10);
+if (n % 10 > 5)
+printf("and is greater than 5\n");
+else if (n % 10 == 0)
+printf("and is 0\n");
+else
+printf("and is less than 6 and not 0\n");
+return (0);
 }
+
+
