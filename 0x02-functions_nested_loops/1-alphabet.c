@@ -10,5 +10,5 @@ char letter;
 letter ++;
 _putchar(letter);
 }
-_putchar(/nletter);
+_putchar ('\n');
 }
