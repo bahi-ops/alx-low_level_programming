@@ -1,0 +1,1 @@
+we can do this explaing the debuging of c useing printf values to test the variables and also to read and explain to the duck line by line 
