@@ -1,16 +1,18 @@
-#include <stddef.h> // For NULL
+#include 'main.h'
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int _strlen(char *s) {
-if (s == NULL)
-return 0;
-int length = 0;
-while (*s != '\0') {
-length++;
-s++;
+int _strlen(char *s)
+{
+int i;
+
+i=0;
+
+while(s[i] != '\0' )
+{
+i++;
 }
-return length;
+return (i);
 }
