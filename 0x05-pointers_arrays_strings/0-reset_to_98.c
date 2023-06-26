@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
+ * reset_to_98 - Takes a pointer to an int and updates the value to 98.
+ *
+ * @n: Pointer to an integer variable.
+ */
 void reset_to_98(int *n)
 {
 *n = 98;
