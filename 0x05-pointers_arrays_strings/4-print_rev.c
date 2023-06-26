@@ -1,23 +1,24 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * main - check the code
+ * print_rev - print a string in reverse.
  *
- * Return: Always 0.
+ *@s: the string to print in reverse.
+ *
  */
-void print_string_reverse(const char *str)
+
+void print_rev(char *s)
 {
-if (str == NULL)
-return;
-int length = 0;
-const char *ptr = str;
-// Find the length of the string
-while (*ptr != '\0') {
-length++;
-ptr++;
-}
-for (int i = length - 1; i >= 0; i--) {
-printf("%c", str[i]);
-}
-printf("\n");
+	int i = 0;
+	int length;
+
+	for (length = 0; s[length] != '\0'; length++)
+	{
+	}
+
+	for (i = length - 1; i >= 0; i--)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 }
