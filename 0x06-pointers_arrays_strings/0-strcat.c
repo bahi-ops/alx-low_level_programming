@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * main - check the code
  *
@@ -8,9 +6,14 @@
  */
 char *_strcat(char *dest, const char *src);{
 
-int i, j;
-while(dest[i] != '\0')
+int i;
+int j;
+i = 0;
+ while(dest[i] != '\0')
+{
 i++;
+}
+j=0;
 while (src[j] != '\0')
 {
 dest[i]= src[j];
