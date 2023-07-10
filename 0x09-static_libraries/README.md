@@ -1,9 +1,6 @@
 # C - Static libraries
 
-In this project, I learned what static libraries are and practiced creating and
-using them with `ar`, `ranlib`, and `nm`.
-
-## Tasks :page_with_curl:
+In this project, I learned what static libraries are and practiced creating
 
 * **0. A library is not a luxury but one of the necessities of life**
   * [libmy.a](./libmy.a): C Static library containing all the functions
